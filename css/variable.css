@@ -1,3 +1,46 @@
 body{
    background-color: rgb(22, 21, 21);
 }
+
+.card{
+   margin-right: 40px;
+   margin-top: 100px;
+   background-color: #212529;
+   float: right;
+}
+
+
+h6{
+   color: white;
+}
+
+
+.card1{
+   margin-left: 40px;
+   margin-top: 100px;
+   background-color: #212529;
+   float: left;
+
+}
+
+.card2{
+   margin-top: 100px;
+   margin-right: -80px;
+   background-color: #212529;
+   float: right;
+
+}
+
+.card3{
+   margin-top: 100px;
+   margin-left: -80px;
+   background-color: #212529;
+   float: left;
+
+}
+
+
+.col-sm-3 img:hover{
+   transform:  scale(1.15);
+
+}

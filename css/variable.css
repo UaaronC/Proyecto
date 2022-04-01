@@ -1,5 +1,6 @@
 body{
    background-color: rgb(22, 21, 21);
+   
 }
 
 .card{
@@ -9,6 +10,10 @@ body{
    float: right;
 }
 
+h1{
+   color: white;
+   margin-top: 60px;
+}
 
 h6{
    color: white;

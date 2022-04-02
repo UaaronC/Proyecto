@@ -62,3 +62,21 @@ h6{
 
 
 
+@media screen and (max-width: 480px){
+   .card{
+      margin: auto;
+   }
+   .card1{
+      margin: auto;
+   }
+   .card2{
+      margin: auto;
+   }
+   .card3{
+      margin: auto;
+   }
+}
+
+col{
+   border: #212529 solid;
+}

@@ -36,7 +36,7 @@ h6{
 
 }
 
-.card3{
+.card3 {
    margin-left: auto;
    margin-top: 100px;
    background-color: #212529;
@@ -79,4 +79,26 @@ h6{
 
 col{
    border: #212529 solid;
+}
+
+.link-muted { color: rgb(255, 255, 255); } .link-muted:hover { color: #1266f1; }
+
+p{
+   color: white;
+}
+
+summary{
+   color: white;
+}
+
+
+
+
+h4{
+   color: white;
+}
+
+
+.esp{
+   margin-top: 100px;
 }

@@ -6,17 +6,10 @@
     font-family:'Open Sans', sans-serif;
 }
 
-
-
-
 body{
     background-color: rgb(22, 21, 21);
     
 }
-
-summary{
-    color: white;
- }
 
 h1{
     color: white;
@@ -156,12 +149,6 @@ h6{
 
 }
 
-
-
-
-
-
-
 @media screen and (min-width: 1100px) and (max-width: 1199px) {
     .embed-container{
         margin-left: -145px;
@@ -225,9 +212,6 @@ h6{
     }
 
 }
-
-
-
 
 .link-muted { color: rgb(255, 255, 255); } .link-muted:hover { color: #1266f1; }
 

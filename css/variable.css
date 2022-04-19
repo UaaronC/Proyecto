@@ -3,6 +3,10 @@ body{
    
 }
 
+h6{
+   text-align: center;
+}
+
 .pie-pagina{
    width: 100%;
    background-color: #212529;
@@ -161,5 +165,11 @@ h4{
       grid-template-columns: repeat(1, 1fr);
       grid-gap: 30px;
       padding: 35px 0px;
+   }
+}
+
+@media screen and (max-width:575px) {
+   .col-xl-3 .col-sm-6{
+      width: 400px;
    }
 }

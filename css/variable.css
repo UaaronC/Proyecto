@@ -192,3 +192,76 @@ h4{
       width: 400px;
    }
 }
+
+.galeria-port{
+   display: inline-flex;
+   justify-content:space-evenly;
+   flex-wrap: wrap;
+   padding: 50px 0px 100px 0px;
+   grid-gap: 80px;
+ 
+   position: relative;
+}
+
+.card-ini{
+   width: 200px;
+}
+
+.card-img-top{
+   height: 280px;
+   width: 100%;
+}
+
+.invi{
+   visibility: hidden;
+}
+
+.card-ini img:hover {
+   transform:  scale(1.15);
+
+}
+
+.second{
+   margin-top: -8px ;
+}
+
+@media screen and (max-width:1199px){
+   .invi{
+      display: none;
+   }
+
+
+}
+
+@media screen and (max-width:503px){
+   
+   .card-ini{
+      width: 42%;
+      display: flex;
+      justify-content:space-evenly;
+      
+
+   }
+   .card-img-top{
+      max-height: 200px;
+      height: 100%;
+      min-height: 200px;
+      
+   }
+
+   .card-body{
+      height: 100%;
+      width: 100%;
+      background-color: #212529;
+   }
+
+
+   h6.card-title{
+      font-size: 90%;
+      box-sizing:content-box ;
+      width: 100px;
+      margin-top: 60%;
+   }
+   
+
+}

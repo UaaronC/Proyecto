@@ -245,6 +245,7 @@ h4{
    .card-img-top{
       max-height: 200px;
       height: 100%;
+      min-width: 150px;
       min-height: 200px;
       
    }
@@ -263,5 +264,11 @@ h4{
       margin-top: 60%;
    }
    
+   .box{
+      font-size: 90%;
+      text-align: center;
+      
+   }
 
+   
 }

@@ -18,7 +18,8 @@ p{
     margin-top: 30px;
     text-align: center;
 }
-button{
+
+button2{
     text-align: center;
     margin-top: 150px;
 }
@@ -79,6 +80,7 @@ h6{
     img{
         max-width: 90%;
     }
+
 }
 
 
@@ -127,6 +129,14 @@ h6{
     }
 }
 
+@media screen and (max-width:767px){
+    
+    
+    button2{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
 
 
 @media screen and (min-width: 646px) and (max-width: 763px) {
@@ -352,6 +362,7 @@ p{
 
 summary{
     color: white;
+    margin-bottom: 20px;
 }
 
 
@@ -426,11 +437,6 @@ li{
     color: white;
  }
 
-
-
-
-
-
 @media screen and (max-width:800px){
     .pie-pagina .grupo-1{
        width: 100%;
@@ -438,7 +444,6 @@ li{
        grid-gap: 30px;
        padding: 35px 0px;
     }
-
 
 }
 

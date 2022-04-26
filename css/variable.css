@@ -166,9 +166,6 @@ summary{
    color: white;
 }
 
-
-
-
 h4{
    color: white;
 }
@@ -199,7 +196,6 @@ h4{
    flex-wrap: wrap;
    padding: 50px 0px 100px 0px;
    grid-gap: 80px;
- 
    position: relative;
 }
 

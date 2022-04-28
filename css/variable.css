@@ -9,15 +9,14 @@ h6{
    text-align: center;
 }
 
-.d-block{
-   margin-top: 40px;
+img.d-block{
+   margin: auto;
+   margin-top: 50px;
+   margin-bottom: 20px;
 }
 
-
 .card-ini{
-   
    background-color: #212529;
-
 }
 
 .pie-pagina{

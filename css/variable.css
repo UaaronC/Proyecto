@@ -13,15 +13,9 @@ h6{
    margin-top: 40px;
 }
 
-.cardf{
-   margin-bottom: 50px;
-   margin-top: 30px;
-   background-color: #212529;
 
-}
 .card-ini{
-   margin-top: 40px;
-   margin-bottom: 40px;
+   
    background-color: #212529;
 
 }
@@ -80,12 +74,6 @@ h6{
    color: white;
 }
 
-.card{
-   margin-right: auto;
-   margin-top: 100px;
-   background-color: #212529;
-   float: center;
-}
 
 h1{
    color: white;
@@ -97,64 +85,12 @@ h6{
 }
 
 
-.card1{
-   margin-left: auto;
-   margin-top: 100px;
-   background-color: #212529;
-   float: center;
-
-}
-
-.card2{
-   margin-left: auto;
-   margin-top: 100px;
-   background-color: #212529;
-   float: center;
-
-}
-
-.card3 {
-   margin-left: auto;
-   margin-top: 100px;
-   background-color: #212529;
-   float: center;
-
-}
 
 
-.col-xl-3 img:hover{
-   transform:  scale(1.15);
 
-}
 
-.col-md-4 img:hover{
-   transform:  scale(1.15);
 
-}
 
-.col-sm-6 img:hover{
-   transform:  scale(1.15);
-
-}
-
-@media screen and (max-width: 480px){
-   .card{
-      margin: auto;
-   }
-   .card1{
-      margin: auto;
-   }
-   .card2{
-      margin: auto;
-   }
-   .card3{
-      margin: auto;
-   }
-}
-
-col{
-   border: #212529 solid;
-}
 
 .link-muted { color: rgb(255, 255, 255); } .link-muted:hover { color: #1266f1; }
 
@@ -184,17 +120,13 @@ h4{
    }
 }
 
-@media screen and (max-width:575px) {
-   .col-xl-3 .col-sm-6{
-      width: 400px;
-   }
-}
+
 
 .galeria-port{
    display: inline-flex;
    justify-content:space-evenly;
    flex-wrap: wrap;
-   padding: 50px 0px 100px 0px;
+   padding: 50px 0px 80px 0px;
    grid-gap: 80px;
    position: relative;
 }
@@ -228,7 +160,7 @@ h4{
 
 }
 
-@media screen and (max-width:503px){
+@media screen and (max-width:523px){
    
    .card-ini{
       width: 42%;

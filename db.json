@@ -3,162 +3,189 @@
         {
             "idJuego": 1,
             "nombreJuego": "Fifa 22",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/fifa_22.jpeg",
             "precioJuego": "19.990",
             "categoria": "Deportes"
         },
         {
             "idJuego": 2,
             "nombreJuego": "Dead By Daylight",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Terror/dead_by_daylight.jpeg",
             "precioJuego": "4.990",
             "categoria": "Terror"
         },
         {
             "idJuego": 3,
             "nombreJuego": "Grand Theft Auto V",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Accion/GTA_V.jpg",
             "precioJuego": "5.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 4,
             "nombreJuego": "Euro Truck",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Simulacion/Euro_truck.jpg",
             "precioJuego": "2.990",
             "categoria": "Simulacion"
         },
         {
             "idJuego": 5,
             "nombreJuego": "Outlast",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Terror/Outlast.jpg",
             "precioJuego": "1.990",
             "categoria": "Terror"
         },
         {
             "idJuego": 6,
             "nombreJuego": "Madden 22",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/Madden_22.jpeg",
             "precioJuego": "12.990",
             "categoria": "Deporte"
         },
         {
             "idJuego": 7,
             "nombreJuego": "Call of Duty MW3",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Accion/Call_of_Duty.webp",
             "precioJuego": "8.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 8,
             "nombreJuego": "Sims 4",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Simulacion/Sims_4.jpg",
             "precioJuego": "5.990",
             "categoria": "Simulacion"
         },
         {
             "idJuego": 9,
             "nombreJuego": "Mortal Kombat 11",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Accion/MK11.jpeg",
             "precioJuego": "8.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 10,
             "nombreJuego": "Phasmophobia",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Terror/Phasmophobia.jpeg",
             "precioJuego": "4.990",
             "categoria": "Terror"
         },
         {
             "idJuego": 11,
             "nombreJuego": "Spider-Man Miles Morales",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/SpiderMan-Miles-Morales.jpg",
             "precioJuego": "27.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 12,
             "nombreJuego": "NFS Most Wanted",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Simulacion/NFS_Most_Wanted.jpg",
             "precioJuego": "2.990",
             "categoria": "Simulacion"
         },
         {
             "idJuego": 14,
             "nombreJuego": "Resident Evil Village",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Terror/Resident_evil.jpeg",
             "precioJuego": "13.990",
             "categoria": "Terror"
         },
         {
             "idJuego": 15,
             "nombreJuego": "Surgeon Simulator 2",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Simulacion/surgeon_simulator.jpeg",
             "precioJuego": "9.990",
             "categoria": "Simulacion"
         },
         {
             "idJuego": 16,
             "nombreJuego": "Battlefield 4",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Accion/Battlefield_4.jpeg",
             "precioJuego": "5.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 17,
             "nombreJuego": "Elden Ring",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/Elden-Ring.jpg",
             "precioJuego": "35.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 18,
             "nombreJuego": "Assassins Creed Valhalla",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/assassins-creed-valhalla.jpg",
             "precioJuego": "22.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 19,
             "nombreJuego": "NBA 2K22",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/NBA_22.jpeg",
             "precioJuego": "10.990",
             "categoria": "Deporte"
         },
         {
             "idJuego": 20,
             "nombreJuego": "The Evil Within 2",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Terror/the-evil-within-2.jpg",
             "precioJuego": "6.990",
             "categoria": "Terror"
         },
         {
             "idJuego": 21,
             "nombreJuego": "Red Dead Remption 2",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/red-dead-redemption.jpg",
             "precioJuego": "20.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 22,
             "nombreJuego": "UFC 4",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/UFC_4.jpg",
             "precioJuego": "9.990",
             "categoria": "Deporte"
         },
         {
             "idJuego": 23,
             "nombreJuego": "Guardianes de la Galaxia",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/Guardianes-de-la-galaxia.jpg",
             "precioJuego": "15.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 24,
             "nombreJuego": "WWE 2K22",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/WWE_22.jpeg",
             "precioJuego": "26.990",
             "categoria": "Deporte"
         },
         {
             "idJuego": 25,
             "nombreJuego": "Devil May Cry",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/devil-may-cry.jpg",
             "precioJuego": "12.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 26,
             "nombreJuego": "Ghost of Tsushima",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Ps5/ghost-of-tsushima-ps5.jpg",
             "precioJuego": "34.990",
             "categoria": "Accion"
         },
         {
             "idJuego": 27,
             "nombreJuego": "F1 2021",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Deportes/formula.jpg",
             "precioJuego": "30.990",
             "categoria": "Deporte"
         },
         {
             "idJuego": 28,
             "nombreJuego": "Dark Souls 2",
+            "imgJuego": "http://127.0.0.2:5500/imagenes/Accion/dark%20souls%202.png",
             "precioJuego": "4.990",
             "categoria": "Accion"
         }

@@ -1,33 +1,72 @@
-var n = document.getElementById("nom");
+const formulario = document.getElementById('formulario');
+const inputs = document.querySelectorAll('#formulario input');
 
-const form = document.getElementById("form1");
-var msj = document.getElementById("mensajes");
+const expresiones = {
+	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+	password: /^.{4,12}$/, // 4 a 12 digitos.
+}
 
-form.addEventListener("submit", e =>{
-    e.preventDefault();
-    let msjMostrar = "";
-    let envioCorreo = false;
+const campos = {
+	correo: false,
+	usuario: false,
+	password: false
+}
 
-    if(n.value.length <4 ||n.value.length >7){
-        msjMostrar += "El nombre no tiene la longitud correcta.<br>"
-        envioCorreo = true;
-    }
+const validarFormulario = (e) => {
+	switch (e.target.name) {
+		case "correo":
+			validarCampo(expresiones.correo, e.target, 'correo');
+		break;
+		case "usuario":
+			validarCampo(expresiones.usuario, e.target, 'usuario');
+		break;
+		case "password":
+			validarCampo(expresiones.password, e.target, 'password');
+			validarPassword2();
+		break;
+	}
+}
 
-    var letraNombre = n.value.charAt(0);
-    if(esMayuscula(letraNombre)){
-        msjMostrar += "Es mayuscula<br>";
-        envioCorreo = true;
-    }
+const validarCampo = (expresion, input, campo) => {
+	if(expresion.test(input.value)){
+		document.getElementById(`grupo__${campo}`).classList.remove('formulario__grupo-incorrecto');
+		document.getElementById(`grupo__${campo}`).classList.add('formulario__grupo-correcto');
+		document.querySelector(`#grupo__${campo} i`).classList.add('fa-check-circle');
+		document.querySelector(`#grupo__${campo} i`).classList.remove('fa-times-circle');
+		document.querySelector(`#grupo__${campo} .formulario__input-error`).classList.remove('formulario__input-error-activo');
+		campos[campo] = true;
+	} else {
+		document.getElementById(`grupo__${campo}`).classList.add('formulario__grupo-incorrecto');
+		document.getElementById(`grupo__${campo}`).classList.remove('formulario__grupo-correcto');
+		document.querySelector(`#grupo__${campo} i`).classList.add('fa-times-circle');
+		document.querySelector(`#grupo__${campo} i`).classList.remove('fa-check-circle');
+		document.querySelector(`#grupo__${campo} .formulario__input-error`).classList.add('formulario__input-error-activo');
+		campos[campo] = false;
+	}
+}
 
-    if(envioCorreo){
-        msj.innerHTML = msjMostrar;
-    }
-    else{
-        msj.innerHTML = "Registro completado con Exito"
-    }
-
+inputs.forEach((input) => {
+	input.addEventListener('keyup', validarFormulario);
+	input.addEventListener('blur', validarFormulario);
 });
 
-function esMayuscula(letra){
-    return letra == letra.toUpperCase();
-}
+formulario.addEventListener('submit', (e) => {
+	e.preventDefault();
+
+	const terminos = document.getElementById('terminos');
+	if(campos.usuario && campos.password && campos.correo){
+		formulario.reset();
+
+		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
+		setTimeout(() => {
+			document.getElementById('formulario__mensaje-exito').classList.remove('formulario__mensaje-exito-activo');
+		}, 2000);
+
+		document.querySelectorAll('.formulario__grupo-correcto').forEach((icono) => {
+			icono.classList.remove('formulario__grupo-correcto');
+		});
+	} else {
+		document.getElementById('formulario__mensaje').classList.add('formulario__mensaje-activo');
+	}
+});

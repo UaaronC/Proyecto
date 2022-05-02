@@ -112,20 +112,9 @@ h6{
     color: white;
 }
 
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-}
 
-.embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
+
+
 
 
 @media screen and (min-width: 375px) and (max-width: 474px) {
@@ -154,13 +143,7 @@ h6{
         width: 400px;
     }
 
-    .embed-container{
-        margin-left: -210px;
-        margin-right: 210px;
-        width: 100%;
-        height: 100%;
-
-    }
+    
     
     .text-box{
         font-size: 14px;
@@ -206,13 +189,7 @@ h6{
         width: 400px;
     }
 
-    .embed-container{
-        margin-left: -230px;
-        margin-right: 230px;
-        width: 100%;
-        height: 100%;
-
-    }
+    
 
     button{
         margin-left: 60px;
@@ -237,11 +214,7 @@ h6{
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
     
-    .embed-container{
-        margin-left: -115px;
-        margin-right: 115px;
-
-    }
+    
 
     button{
         margin-left: -100px;
@@ -267,11 +240,7 @@ h6{
 
 @media screen and (min-width: 900px) and (max-width: 1000px) {
     
-    .embed-container{
-        margin-left: -115px;
-        margin-right: 115px;
-
-    }
+    
     
     button{
         margin-left: -100px;
@@ -293,6 +262,16 @@ h6{
     
 }
 
+
+.ratio{
+    margin: auto;
+    width: 50%;
+}
+.descripcion{
+    min-height: 144px;
+    max-height: 144px;
+}
+
 .tabla-1{
     display: inline-flex;
     justify-content:space-evenly;
@@ -304,14 +283,15 @@ h6{
 
 }
 
-
+.imagen{
+    max-width: 100%;
+}
+.imagen img{
+    max-width: 100%;
+}
 
 @media screen and (min-width: 1000px) and (max-width: 1099px) {
-    .embed-container{
-        margin-left: -132px;
-        margin-right: 132px;
-
-    }
+    
     
     button{
         margin-left: -100px;
@@ -332,11 +312,7 @@ h6{
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1199px) {
-    .embed-container{
-        margin-left: -145px;
-        margin-right: 145px;
-
-    }
+    
     
     button{
         margin-top: 50%;
@@ -367,15 +343,19 @@ h6{
     display: block;
     text-align: left;
     margin: left;
-    font-size: 15px;
+    font-size: 14px;
     box-sizing: border-box;
     width: 60%;
+}
+
+.info{
+    font-size: 15px;
 }
 
 .text-box-2{
     display:inline-block;
     text-align: left;
-    font-size: 15px;
+    font-size: 14px;
     box-sizing: border-box;
     width: 60%;
 }
@@ -384,7 +364,7 @@ h6{
     display: block;
     text-align: left;
     margin: left;
-    font-size: 15px;
+    font-size: 14px;
     box-sizing: border-box;
     width: 60%;
 }
@@ -395,11 +375,7 @@ h6{
 }
 
 @media screen and (min-width: 1100px) and (max-width: 1199px) {
-    .embed-container{
-        margin-left: -145px;
-        margin-right: 145px;
-
-    }
+    
     
     button{
         margin-left: -100px;
@@ -554,7 +530,7 @@ iframe{
     .text-box-1{
         display: block;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
         box-sizing: border-box;
         width: 100%;
     }
@@ -597,6 +573,10 @@ iframe{
         box-sizing: border-box;
         width: 100%;
     }
+
+    .info{
+        font-size: 14px;
+    }
     
     .text-box-2{
         text-align: left;
@@ -628,6 +608,30 @@ iframe{
 
 }
 
+@media screen and (max-width:449px){
+    .tabla-1{
+        margin-top: 200px;
+    }
+    
+
+}
+
+
+@media screen and (max-width:344px){
+    .tabla-1{
+        margin-top: 300px;
+    }
+    
+
+}
+
+@media screen and (max-width:300px){
+    .tabla-1{
+        margin-top: 400px;
+    }
+    
+
+}
 
 
 @media screen and (max-width:768px){
@@ -648,4 +652,25 @@ iframe{
     p{
         font-size: 12px;
     }
+}
+
+
+
+@media screen and (max-width:500px){
+
+    .imagen{
+        max-width: 60%;
+    }    
+    .imagen img{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1000px){
+
+    .ratio{
+        width: 100%;
+    }
+    
 }

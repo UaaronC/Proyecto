@@ -3,8 +3,8 @@ const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-	password: /^.{4,12}$/, // 4 a 12 digitos.
+	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/,
+	password: /^.{8,16}$/,
 }
 
 const campos = {

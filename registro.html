@@ -25,28 +25,28 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="http://127.0.0.2:5500/Principal.html">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="Principal.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="http://127.0.0.2:5500/PS5.html">PS5</a>
+                        <a class="nav-link active" aria-current="page" href="PS5.html">PS5</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="http://127.0.0.2:5500/accion.html">Acción</a></li>
-                            <li><a class="dropdown-item" href="http://127.0.0.2:5500/deporte.html">Deportes</a></li>
-                            <li><a class="dropdown-item" href="http://127.0.0.2:5500/simulacion.html">Simulación</a></li>
-                            <li><a class="dropdown-item" href="http://127.0.0.2:5500/terror.html">Terror</a></li>
+                            <li><a class="dropdown-item" href="accion.html">Acción</a></li>
+                            <li><a class="dropdown-item" href="deporte.html">Deportes</a></li>
+                            <li><a class="dropdown-item" href="simulacion.html">Simulación</a></li>
+                            <li><a class="dropdown-item" href="terror.html">Terror</a></li>
                         </ul>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Registro/inicio
                         </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="http://127.0.0.2:5500/registro.html">Registrate</a></li>
-                        <li><a class="dropdown-item" href="http://127.0.0.2:5500/login.html">Iniciar sesion</a></li>
+                        <li><a class="dropdown-item" href="registro.html">Registrate</a></li>
+                        <li><a class="dropdown-item" href="login.html">Iniciar sesion</a></li>
                     </ul>
                 </ul>
             </div>
@@ -59,7 +59,7 @@
 			<div class="formulario__grupo" id="grupo__correo">
 				<label for="correo" class="formulario__label">Correo Electrónico</label>
 				<div class="formulario__grupo-input">
-					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+					<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com" required>
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<strong class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</strong>
@@ -69,7 +69,7 @@
 			<div class="formulario__grupo" id="grupo__usuario">
 				<label for="usuario" class="formulario__label">Usuario</label>
 				<div class="formulario__grupo-input">
-					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="lalitomc123">
+					<input type="text" class="formulario__input" name="usuario" id="usuario" placeholder="lalitomc123" required>
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<strong class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</strong>
@@ -79,7 +79,7 @@
 			<div class="formulario__grupo" id="grupo__password">
 				<label for="password" class="formulario__label">Contraseña</label>
 				<div class="formulario__grupo-input">
-					<input type="password" class="formulario__input" name="password" id="password">
+					<input type="password" class="formulario__input" name="password" id="password" required>
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<strong class="formulario__input-error">La contraseña tiene que ser de 3 a 16 dígitos.</strong>
@@ -89,7 +89,7 @@
 			<div class="formulario__grupo" id="grupo__password2">
 				<label for="password2" class="formulario__label">Confirmar Contraseña</label>
 				<div class="formulario__grupo-input">
-					<input type="password" class="formulario__input" name="password2" id="password2">
+					<input type="password" class="formulario__input" name="password2" id="password2" required>
 					<i class="formulario__validacion-estado fas fa-times-circle"></i>
 				</div>
 				<strong class="formulario__input-error">Ambas contraseñas tienen que ser iguales.</strong> 

@@ -2,28 +2,22 @@ const formulario = document.getElementById('formulario');
 const inputs = document.querySelectorAll('#formulario input');
 
 const expresiones = {
-	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/,
 	password: /^.{3,16}$/,
 }
 
 const campos = {
-	correo: false,
 	usuario: false,
 	password: false
 }
 
 const validarFormulario = (e) => {
 	switch (e.target.name) {
-		case "correo":
-			validarCampo(expresiones.correo, e.target, 'correo');
-		break;
 		case "usuario":
 			validarCampo(expresiones.usuario, e.target, 'usuario');
 		break;
 		case "password":
-			validarCampo(expresiones.password, e.target, 'password');
-			validarPassword2();
+			validarCampo(expresiones.password, e.target, 'password');		
 		break;
 	}
 }
@@ -55,7 +49,7 @@ formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
 	const terminos = document.getElementById('terminos');
-	if(campos.usuario && campos.password && campos.correo){
+	if(campos.usuario && campos.password){
 		formulario.reset();
 
 		document.getElementById('formulario__mensaje-exito').classList.add('formulario__mensaje-exito-activo');
